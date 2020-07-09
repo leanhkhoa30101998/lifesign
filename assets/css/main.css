@@ -24,6 +24,13 @@
     list-style-type: none;
     padding: 9px;
 }
+.header_right--top-item a{
+    color: var(--white-color);
+}
+.header_right--top-item a:hover{
+    text-decoration: none;
+    color: var(--white-color);
+}
 .header_right--bottom{
     text-align: right;
 }
@@ -82,15 +89,11 @@
 /* .content2 img{
     width: 100%;
 } */
-.money-back{
-    position: absolute;
-    width: 7%;
+.content2_money-back{
     top: .3em;
-    right: 5vw;
+    right: 2%;
 }
-.money-back img{
-    width: 100%;
-}
+
 .content2__list{
     width: 80%;
     display: flex;
@@ -118,6 +121,18 @@
 .content2__main-price{
     font-size: 1.5em;
     font-weight: 500;
+}
+.content2__main-price--cu{
+    padding-right: 4vw;
+}
+.content2__main-price--cu::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    transform: rotate(160deg);
+    width: 3.5vw;
+    height: 1.5px;
+    top: 50%;
 }
 .content2__main-button1{
     background-color: #cc1124;
@@ -164,6 +179,21 @@
 .content4_right-main--button{
     background-color: #cc1124;
 }
+.content4_money-back{
+    left: 2%;
+}
+.content4_right-price--cu{
+    padding-right: 4vw;
+}
+.content4_right-price--cu::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    transform: rotate(160deg);
+    width: 7vw;
+    height: 1.5px;
+    top: 45%;
+}
 
     /* end content4 */
 
@@ -184,6 +214,21 @@
 .content5_left-main--button{
     background-color: #9aafd9;
 }
+.content5_money-back{
+    right: 2%;
+}
+.content5_left-price--cu{
+    padding-right: 4vw;
+}
+.content5_left-price--cu::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    transform: rotate(160deg);
+    width: 7vw;
+    height: 1.5px;
+    top: 45%;
+}
 
     /* end content5 */
 
@@ -202,7 +247,21 @@
 .content6_right-main--button{
     background-color: #fe6c6c;
 }
-
+.content6_money-back{
+    left: 2%;
+}
+.content6_right-price--cu{
+    padding-right: 4vw;
+}
+.content6_right-price--cu::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    transform: rotate(160deg);
+    width: 7vw;
+    height: 1.5px;
+    top: 45%;
+}
     /* end content6 */
 
 
@@ -351,5 +410,17 @@
     }
     .footer_text {
         font-size: 2vw;
+    }
+    .content4_right-price--cu::before{
+        top: 30%;
+    }
+    .content5_left-price--cu::before{
+        top: 30%;
+    }
+    .content6_right-price--cu::before{
+        top: 30%;
+    }
+    .content2__main-price--cu::before{
+        width: 5.5vw;
     }
 }

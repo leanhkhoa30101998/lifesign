@@ -26,6 +26,20 @@ html{
     font-weight: 500;
     margin-top: 2vw;
 }
+.main-button:focus{
+    outline: none;
+}
+.main-button:hover{
+    color: #dedede;
+}
+
+.money-back{
+    position: absolute;
+    width: 7%;
+}
+.money-back img{
+    width: 100%;
+}
 
 .main_khoi{
     margin: auto;
@@ -42,4 +56,7 @@ html{
 .main_price{
     font-size: 2vw;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
