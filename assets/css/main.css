@@ -1,0 +1,355 @@
+        /* HEADER */
+.header{
+    border-top: 2px solid #006634;
+    display: flex;
+    justify-content: space-between;
+}
+.header_left img{
+    margin: 3vw;
+}
+.header_right{
+    padding-right: 4vw !important;
+}
+.header_right--top{
+    background-color: #006634;
+    border-radius: 0 0px 6px 6px;
+}
+.header_right--top-list{
+    display: flex;
+    justify-content: center;
+}
+.header_right--top-item{
+    color: var(--white-color);
+    font-size: 1.3em;
+    list-style-type: none;
+    padding: 9px;
+}
+.header_right--bottom{
+    text-align: right;
+}
+.header_right--bottom img{
+    padding-left: 10px;
+}
+        /*END HEADER */
+
+
+        /* BODY */
+
+    /* content1 */
+
+.content1-menu{
+    background-color: #0066cb;
+    padding: 0 !important;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-item:hover{
+    background-color: #ffff01;
+}
+.nav-item:hover .nav-link{
+    color: #0066cb !important;
+}
+
+.nav-item{
+    padding: 5px 4vw;
+    border-right: 1px solid white;
+}
+.nav-item:last-child{
+    border: none;
+}
+.nav-link{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--white-color) !important;
+}
+.navbar-toggler{
+    margin: 5px;
+}
+
+    /* end content1 */
+
+        /* END BODY */
+
+    /* content2 */
+
+.content2{
+    position: relative;
+    background-image: url(../image/backgroud1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* .content2 img{
+    width: 100%;
+} */
+.money-back{
+    position: absolute;
+    width: 7%;
+    top: .3em;
+    right: 5vw;
+}
+.money-back img{
+    width: 100%;
+}
+.content2__list{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5vw 0;
+}
+.content2__main{
+    width: 33%;
+    text-align: center;
+}
+.content2__main img{
+    width: 80%;
+}
+.content2__main-title{
+    margin-top: 1vw;
+}
+.content2__main-title p{
+    margin-bottom: 0;
+}
+.content2__main-desc{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.content2__main-price{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.content2__main-button1{
+    background-color: #cc1124;
+}
+.content2__main-button2{
+    background-color: #9aafd9;
+}
+.content2__main-button3{
+    background-color: #fe6c6c;
+}
+
+    /* end content2 */
+
+    /* content3 */
+
+.content3{
+    text-align: center;
+    background-color: #0066cb;
+    color: #ffffff;
+    padding: 1vw 0;
+}
+.content3 h1{
+    font-size: 3.5em;
+    font-weight: 400;
+}
+.content3 span{
+    color: #f9fd00;
+}
+
+    /* end content3 */
+
+    /* content4 */
+
+.content4{
+    width: 100%;
+    display: flex;
+}
+.content4_left{
+    width: 58%;
+}
+.content4_left img{
+    width: 100%;
+}
+.content4_right-main--button{
+    background-color: #cc1124;
+}
+
+    /* end content4 */
+
+    /* content5 */
+
+.content5{
+    width: 100%;
+    display: flex;
+}
+.content5_left{
+}
+.content5_right{
+    width: 57.5%;
+}
+.content5_right img{
+    width: 100%;
+}
+.content5_left-main--button{
+    background-color: #9aafd9;
+}
+
+    /* end content5 */
+
+    /* content6 */
+
+.content6{
+    width: 100%;
+    display: flex;
+}
+.content6_left{
+    width: 58%;
+}
+.content6_left img{
+    width: 100%;
+}
+.content6_right-main--button{
+    background-color: #fe6c6c;
+}
+
+    /* end content6 */
+
+
+    /* content7 */
+
+.content7{
+    background-image: url(../image/backgroud2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.content7_tittle{
+    font-size: 3vw;
+    padding: 3vw 0;
+}
+.content7_desc{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.content7_img{
+    padding: 4vw 0 10vw 0;
+}
+.content7_img--logo img{
+    width: 12%;
+}
+.content7_link-list, .content7_icon-list{
+    display: inline-flex;
+    list-style-type: none;
+}
+.content7_link-item{
+    font-weight: 700;
+    padding: 0 10px;
+    border-right: 2px solid black;
+    margin-top: 3vw;
+}
+.content7_link-item a{
+    color: var(--black-color);
+}
+.content7_link-item a:hover{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.content7_link-item:last-child{
+    border-right: none;
+}
+.content7_icon-item a{
+    font-size: 1.5em;
+    color: #999999;
+    padding: 2px;
+    margin-top: 2vw;
+}
+.content7_icon-item a:hover{
+    color: var(--text-color);
+}
+
+    /* end content7 */
+
+        /* FOOTER */
+
+.footer{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.footer_text{
+    text-transform: uppercase;
+    padding: 1em;
+    font-weight: 700;
+}
+
+        /* END FOOTER */
+
+
+
+
+        /* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 960px) {
+    .header_right--top-item{
+        font-size: 1.1em;
+        padding: 4px;
+    }
+}
+@media screen and (min-width: 992px){
+    .nav-item:first-child{
+        padding: 5px 2vw;
+    }
+}
+@media screen and (max-width: 992px){
+    .content7_desc{
+        font-size: 1.5vw;
+    }
+    .content7_img img{
+        width: 13vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header_right--bottom{
+        display: none;
+    }
+    .header_right--top-list{
+        display: block;
+        text-align: center;
+    }
+    .content2__main-desc, .content2__main-price{
+        font-size: 1.3em;
+    }
+    .content2__main-button{
+        padding: 3px 2vw;
+        font-size: 1.3em;
+        margin-top: 2vw;
+    }
+    .content2__main{
+        margin: 0 2vw;
+    }
+    .content3 h1 {
+        font-size: 4vw;
+    }
+    
+}
+
+@media screen and (max-width: 470px) {
+    .header_right--top-item{
+        font-size: 1em;
+        padding: 1px 6px;
+    }
+    .header_left img{
+        width: 90%;
+    }
+    .content2__list{
+        padding: 2vw 0;
+    }
+    .content2__main-desc, .content2__main-price{
+        font-size: .8em;
+    }
+    .content2__main-button{
+        padding: 2px 1vw;
+        font-size: .8em;
+        margin-top: 1vw;
+    }
+    .content7_link-item{
+        padding: 0 5px;
+        border-right: 1px solid black;
+        font-size: 2vw;
+    }
+    .footer_text {
+        font-size: 2vw;
+    }
+}
